@@ -1,0 +1,7 @@
+
+
+GtkApplication :: instance is created and initialized using gtk_application_new()
+GtkApplication needs an application identifier (a name) 
+    gtk_application_new() :: creats an identifier (a name / id) eg org.gtk.example 
+        vist https://wiki.gnome.org/HowDoI/ChooseApplicationID ::: for more
+    the GtkApplication object is freed from memory with g_object_unref()

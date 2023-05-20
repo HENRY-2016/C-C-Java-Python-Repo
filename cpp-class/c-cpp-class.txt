@@ -1,0 +1,105 @@
+
+================
+OOP Fundamentals
+================
+		Class 	:: E.g class {Fruits } Objects { Apple, Banana }
+		Objects	:: 
+		Method 	:: Methods are functions that belongs to the class
+				Two definition mthds
+			    Inside class definition
+			    Outside class definition
+
+		Constructor || Destructor
+				Is a special method that is automatically called when an object of a class is created
+
+		Access Specifiers
+				3 access specifiers
+			    public - members are accessible from outside the class
+			    private - members cannot be accessed (or viewed) from outside the class
+			    protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes
+
+		Exceptions
+				try {
+					  // Block of code to try
+					  throw exception; // Throw an exception when a problem arise
+					}
+					catch () {
+					  // Block of code to handle errors
+					} 
+
+
+		Pillars of OOPS
+		---------------
+			Inheritance
+				Inheritance is the procedure in which one class inherits the attributes and methods of another class.
+
+			Encapsulation
+				The word, “encapsulate,” means to enclose something
+				we encapsulate by binding the data and functions
+
+			Polymorphism
+				It describes the concept that you can access objects of different types through the same interface
+
+			Abstraction
+				Hiding the internal details or implementations of a function and showing its functionalities only
+
+
+// datatypes
+
+int age = 83;
+double = 89.88;
+char ="name";
+boolean true_or_false = true / false;
+
+
+
+class name ()
+{
+   // your code ...    
+}
+
+class My_Fruits ()
+{
+    ....Constructor ......
+
+    object_1 = Apple;
+    object_1 = Orange;
+
+    // methods / functions
+    protected function eat ()
+    {
+        print "am eating"
+    }
+
+    public function eatting_Oranges ()
+    {
+        print "am eating my Oranges"
+    }
+
+    private function private_funtion  ()
+    {
+        print "am private to My_Fruits class"
+    }
+    ....Desstructor ......
+}
+
+class Plants ()
+{
+    object_1 = Apple_tree;
+    object_1 = Orange_tree;
+
+    eatting_Oranges () // func call from My_Fruits
+}
+
+class Plants_Type_2 ( My_Fruits ) // Inheritance
+{
+    object_1 = Apple_tree_2;
+    object_1 = Orange_tree_2;
+
+    private_funtion () // func call from My_Fruits
+}
+
+ 
+
+
+
